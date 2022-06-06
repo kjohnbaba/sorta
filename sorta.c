@@ -5,8 +5,8 @@
 static int sorta(const void *a,const void *b) {
     
     return strcmp(*(char* const*)a, *(char* const*)b);
-    
-}
+    }
+
 int main(int argc, char *argv[]){
     if(argc == 1){
         return 1;
@@ -23,7 +23,8 @@ int main(int argc, char *argv[]){
         puts(argv[i]);
     }
 	return 0;
-}}
+ }
+}
 
 
 
