@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
     } else if(argc == 2){
      int k;  
 	for(k=1; k<argc; k++)
-		printf("%s\n", argv[k]);
+	printf("%s\n", argv[k]);
         
     } else{
         
